@@ -1,0 +1,10 @@
+{
+  "navbar": {
+    "bio": "bio",
+    "petProjects": "pet projects",
+    "workHistory": "work history",
+    "language": "language",
+    "languageExactly": "English"
+  }
+
+}
