@@ -11,9 +11,16 @@
       <change beforePath="$PROJECT_DIR$/node_modules/.package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/Locales/en/translation.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/Locales/ru/translation.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/locales/en/translation.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/locales/ru/translation.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/NavBar/NavBar.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/NavBar/NavBar.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/NavBar/NavBar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/NavBar/NavBar.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Pages/Bio page/bio.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pages/Bio page/bio.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Pages/Bio page/bio.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pages/Bio page/bio.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Pages/Pet projects page/pet.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pages/Pet projects page/pet.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/utils/i18n.js" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -40,7 +47,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Learning/resume/public",
+    "last_opened_file_path": "C:/Learning/resume/Locales",
     "nodejs_package_manager_path": "npm",
     "ts.external.directory.path": "C:\\Learning\\resume\\node_modules\\typescript\\lib",
     "vue.rearranger.settings.migration": "true"
@@ -48,13 +55,14 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Learning\resume\Locales" />
       <recent name="C:\Learning\resume\public" />
       <recent name="C:\Learning\resume\public\locales" />
       <recent name="C:\Learning\resume\src\Locales" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Learning\resume\public" />
       <recent name="C:\Learning\resume\src" />
+      <recent name="C:\Learning\resume\public" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -66,6 +74,7 @@
       <option name="presentableId" value="Default" />
       <updated>1663021563313</updated>
       <workItem from="1663021565463" duration="5067000" />
+      <workItem from="1663061144205" duration="19749000" />
     </task>
     <servers />
   </component>

@@ -40,3 +40,9 @@
     width: 100%;
     transition: width .3s;
 }
+
+@media (max-width: 800px) {
+    .decoration{
+        font-size: 1rem;
+    }
+}

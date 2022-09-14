@@ -1,74 +1,43 @@
-.rightSide .firstSect p {
+
+
+.firstSect .rightSide p{
     margin: 0;
     padding: 0;
     line-height: 55px;
     letter-spacing: 5px;
 }
 
-.mainCont {
-    background: #e7e7e7;
+.firstSect{
     display: flex;
 }
 
 .leftSide {
-    height: auto;
-    width: 25%;
-    min-width: 250px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    width: 20%;
+    min-width: 90px;
+    background: #e7e7e7;
+    padding-right: 1rem;
 }
-
-.firstSect {
-    height: 420px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    margin-bottom: 3rem;
+.rightSide{
+    width: 80%;
+    background: #fff;
+    padding: 0 2rem 0 2rem;
+    margin-bottom: 2rem;
 }
 
 .myPhoto {
     border-radius: 50%;
     width: 250px;
     height: 250px;
+    margin-right: -1rem;
 }
-
-.descItem {
-    text-align: right;
-    width: 250px;
+.firstSect .leftSide{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-
-.introTitle {
-    font-weight: bold;
-    color: var(--text-color)
-}
-
-.introDesc {
-    color: var(--secondary-text-color)
-}
-
-.aboutMe {
-    text-align: left;
-    width: 100%;
-    font-weight: 450;
-    font-size: 20px;
-    color: var(--text-color);
-    margin: -5px 0 0 0;
-}
-
-.secondSect {
-    height: 250px;
-}
-
-.rightSide {
-    width: 70%;
-    background: #fff;
-    padding: 0 5rem;
-}
-
-.rightSide .firstSect {
-    border-bottom: 3px solid var(--secondary-text-color);
+.firstSect .rightSide{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
 }
 
 .name {
@@ -100,18 +69,14 @@
     cursor: pointer;
 }
 
-.customIcon {
-    width: 40px;
-    margin-right: 10px;
-    cursor: pointer;
-}
-
 .iconsCont {
     width: 100%;
     text-align: left;
     display: flex;
     align-items: center;
     margin-top: 3rem;
+    border-bottom: 3px solid var(--secondary-text-color);
+    padding-bottom: 2rem;
 }
 
 .info {
@@ -120,6 +85,7 @@
     justify-content: space-between;
     align-items: center;
     margin-top: 3rem;
+    flex-wrap: wrap;
 }
 
 .infoItem {
@@ -137,36 +103,58 @@
     color: var(--secondary-text-color);
 }
 
-.thirdSect {
-    height: 650px;
+
+
+.secondSect{
+    display: flex;
+}
+.descItem {
+    text-align: right;
     width: 100%;
+}
+.introTitle {
+    font-weight: bold;
+    color: var(--text-color)
+}
+
+.introDesc {
+    color: var(--secondary-text-color)
+}
+.aboutMe {
+    text-align: left;
+    width: 100%;
+    font-weight: 450;
+    font-size: 20px;
+    color: var(--text-color);
+    margin: -5px 0 0 0;
+}
+
+
+.thirdSect{
+    display: flex;
+}
+.thirdSect .rightSide{
+    padding-top: 1rem;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
 }
-
-.rightSide .thirdSect {
-    overflow-y: auto;
+.thirdSect .leftSide{
+    padding-top: 2rem;
 }
-
-.leftSide .thirdSect {
-    margin-top: 2rem;
-    width: 250px;
-}
-
 .thirdSect .workItem {
     display: flex;
-    width: 40%;
-    margin-top: 2rem;
-    min-width: 400px;
+    width: 50%;
+    margin-top: 1rem;
 }
 
-.thirdSect .workItemNumber {
-    width: 15%;
-    min-width: 15%;
+.workItemNumber {
+    width: 10%;
+    min-width: 10%;
     font-size: 32px;
     color: var(--orange-text-color);
     font-weight: bold;
+    text-align: center;
 }
 
 .workItemExactly {
@@ -187,26 +175,25 @@
     font-size: 20px;
 }
 
-.fourthSect {
-    margin-top: 1rem;
-    margin-bottom: 5rem;
-}
 
-.rightSide .fourthSect {
+
+.fourthSect{
+    display: flex;
+}
+.fourthSect .rightSide{
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-around;
+    margin-top: -2rem;
 }
-
 .featureCont {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 300px;
-    min-width: 250px;
     font-size: 32px;
     color: var(--orange-text-color);
     margin-top: 2rem;
+    width: 33%;
 }
 
 .featIcon {
@@ -216,4 +203,161 @@
 
 .featText {
     color: var(--text-color)
+}
+
+.fourthSect .leftSide, .fourthSect .rightSide{
+    padding-bottom: 2rem;
+}
+
+.introduction{
+    display: flex;
+}
+
+.realIntro{
+    display: flex;
+    flex-direction: column;
+}
+
+.reactLogo{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.reactGIF{
+    height: 158px;
+    width: 158px;
+}
+
+@media (max-width: 1300px) {
+    .myPhoto{
+        width: 200px;
+        height: 200px;
+    }
+}
+
+@media (max-width: 1000px) {
+    .myPhoto{
+        width: 150px;
+        height: 150px;
+    }
+    .workItem{
+        width: 100% !important;
+    }
+    .thirdSect .rightSide{
+        flex-direction: column;
+    }
+    .featureCont{
+        width: 100%;
+    }
+}
+
+@media (max-width: 800px) {
+    .myPhoto{
+        width: 100px;
+        height: 100px;
+    }
+    .info{
+        margin-top: 1rem;
+    }
+    .iconsCont{
+        padding-bottom: 1rem;
+        margin-top: 1rem;
+    }
+    .infoItem{
+        width: 100%;
+    }
+    .infoTitle{
+        margin-bottom: 0;
+    }
+    .reactLogo{
+        display: none;
+    }
+}
+
+@media (max-width: 600px) {
+    .myPhoto{
+        width: 75px;
+        height: 75px;
+    }
+    .rightSide{
+        padding: 0 1rem 1rem 1rem !important;
+    }
+    .leftSide{
+        padding-right: 0.5rem;
+    }
+    .workItem{
+        margin-top: 1rem !important;
+    }
+    .workItemDescription{
+        margin-top: 0;
+    }
+}
+
+@media (max-width: 500px) {
+    .workItemNumber, .workItemTitle{
+        font-size: 24px;
+    }
+    .workItemDescription{
+        font-size: 16px;
+    }
+    .thirdSect .rightSide{
+        margin-top: -1rem !important;
+    }
+    .thirdSect .leftSide{
+        padding-top: 0;
+    }
+    .workItem{
+        margin-top: 0.5rem !important;
+    }
+    .fourthSect .rightSide{
+        flex-direction: column;
+        margin-top: -0.5rem;
+        align-items: flex-start;
+        margin-bottom: 0;
+    }
+    .featureCont{
+        margin-top: 0.5rem;
+    }
+    .featText{
+        font-size: 24px;
+    }
+}
+
+@media (max-width: 400px) {
+    .myPhoto{
+        display: none;
+    }
+    .firstSect .leftSide{
+        display: none;
+    }
+    .firstSect .rightSide{
+        width: 100%;
+        padding: 1rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .name, .surname, .jobPref{
+        width: auto;
+    }
+    .infoItem{
+        text-align: center;
+    }
+    .iconsCont{
+        justify-content: center;
+    }
+    .workItemNumber{
+        display: none;
+    }
+    .workItemTitle{
+        color: var(--orange-text-color);
+    }
+    .workItemTitle{
+        font-size: 20px;
+    }
+    .workItemDescription{
+        font-size: 14px;
+        width: 200px;
+    }
 }
