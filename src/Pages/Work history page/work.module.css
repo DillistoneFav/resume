@@ -1,0 +1,223 @@
+.workContainer{
+    display: flex;
+    flex-direction: column;
+}
+.workItemCont{
+    display: flex;
+}
+.leftSide{
+    width: 80%;
+    background: #fff;
+    padding: 1rem 0 1rem 0;
+    display: flex;
+    justify-content: center;
+}
+.workContainer .workItemCont:last-child .leftSide{
+    padding-bottom: 0 !important;
+}
+.rightSide{
+    width: 20%;
+    background: #e7e7e7;
+    padding: 1rem 0 0 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    color: var(--text-color);
+    font-size: 18px;
+    font-weight: bold;
+    position: relative;
+}
+.rightSide::after{
+    content: "";
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    top: 50%;
+    left: -50px;
+    background: #000;
+}
+.line{
+    position: absolute;
+    width: 2px;
+    top: 0;
+    bottom: 0;
+    left: -46px;
+    background: var(--secondary-text-color);
+}
+
+.position{
+    text-decoration: underline;
+    font-weight: bolder;
+    color: var(--secondary-text-color)
+}
+
+.itemExactly{
+    width: 85%;
+    border: 2px solid #000;
+    border-radius: 15px;
+    padding: 1rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    -webkit-box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
+    -moz-box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
+    box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
+    transition: 0.5s;
+}
+.itemExactly:hover{
+    -webkit-box-shadow: 0px 5px 10px 7px rgba(34, 60, 80, 0.2);
+    -moz-box-shadow: 0px 5px 10px 7px rgba(34, 60, 80, 0.2);
+    box-shadow: 0px 5px 10px 7px rgba(34, 60, 80, 0.2);
+}
+.itemExactly img{
+    height: 50px;
+}
+
+.companyDescriptionContainer{
+    width: 100%;
+    display: flex;
+    margin-top: 0.5rem;
+}
+.companyName{
+    text-transform: uppercase;
+    color: var(--orange-text-color);
+    font-size: 28px;
+    font-weight: bold;
+    text-decoration: underline;
+    cursor: pointer;
+}
+.companyName span{
+    color: var(--text-color);
+}
+.companyDescription{
+    color: var(--text-color);
+    font-size: 24px;
+    text-align: left;
+}
+
+.myRole{
+    display: flex;
+    padding-top: 1rem;
+}
+
+.specs{
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-right: 1rem;
+}
+.specRow{
+    width: 100%;
+    display: flex;
+    font-size: 20px;
+}
+.specsTitle{
+    font-size: 24px;
+    width: 100%;
+    text-align: center;
+    border-bottom: 2px solid lightgray;
+    font-weight: bold;
+}
+.specExactly{
+    width: 50%;
+    text-align: right;
+}
+.specDesc{
+    width: 50%;
+    text-align: left;
+    margin-left: 3rem;
+    display: flex;
+    align-items: center;
+}
+
+.duties{
+    width: 50%;
+    padding-left: 1rem;
+}
+.specDutiesRow{
+    width: 100%;
+    font-size: 20px;
+}
+
+@media (max-width: 1600px) {
+    .myRole{
+        flex-direction: column;
+    }
+    .specs, .duties{
+        width: 100%;
+    }
+    .duties{
+        margin-top: 1rem;
+        padding-left: 0;
+    }
+    .duties .specRow{
+        padding-left: 0;
+        text-align: center;
+    }
+}
+
+@media (max-width: 1300px) {
+    .myRole{
+        flex-direction: column;
+    }
+    .specs, .duties{
+        width: 100%;
+    }
+    .duties{
+        margin-top: 1rem;
+        padding-left: 0;
+    }
+    .duties .specRow{
+        padding-left: 0;
+        text-align: center;
+    }
+
+    .rightSide::after{
+        left: -30px !important;
+    }
+    .line{
+        left: -26px;
+    }
+}
+
+@media (max-width: 1000px) {
+    .rightSide::after{
+        display: none;
+    }
+    .line{
+        display: none;
+    }
+}
+
+@media (max-width: 1000px) {
+    .companyDescription{
+        font-size: 16px;
+    }
+    .companyName{
+        font-size: 20px;
+    }
+    .itemExactly img{
+        height: 30px;
+    }
+    .specsTitle{
+        font-size: 20px;
+    }
+    .specRow{
+        font-size: 14px;
+    }
+    .specDutiesRow{
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 600px) {
+    .specDesc{
+        margin-left: 0.5rem;
+    }
+    .rightSide{
+        font-size: 14px;
+        padding-left: 0.3rem;
+    }
+}

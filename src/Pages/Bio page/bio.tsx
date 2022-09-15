@@ -34,7 +34,7 @@ const Pet = () => {
               </div>
 
             <div className={classes.reactLogo}>
-              <img className={classes.reactGIF} src={reactGIF}/>
+              <img className={classes.reactGIF} alt={"alt"} src={reactGIF}/>
             </div>
           </div>
             <div className={classes.info}>
