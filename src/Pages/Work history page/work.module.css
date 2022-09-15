@@ -112,6 +112,11 @@
     width: 100%;
     display: flex;
     font-size: 20px;
+    min-height: 35px;
+    border-bottom: 1px solid lightgrey;
+}
+.specRow:last-child{
+    border-bottom: 2px solid lightgray;
 }
 .specsTitle{
     font-size: 24px;
@@ -123,11 +128,14 @@
 .specExactly{
     width: 50%;
     text-align: right;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
 }
 .specDesc{
     width: 50%;
     text-align: left;
-    margin-left: 3rem;
+    margin-left: 2rem;
     display: flex;
     align-items: center;
 }
@@ -139,6 +147,11 @@
 .specDutiesRow{
     width: 100%;
     font-size: 20px;
+    min-height: 35px;
+    border-bottom: 1px solid lightgrey;
+}
+.specDutiesRow:last-child{
+    border-bottom: 2px solid lightgray;
 }
 
 @media (max-width: 1600px) {
@@ -219,5 +232,26 @@
     .rightSide{
         font-size: 14px;
         padding-left: 0.3rem;
+    }
+    .itemExactly{
+        padding: 0.5rem;
+    }
+}
+
+@media (max-width: 450px) {
+    .rightSide{
+        font-size: 10px;
+    }
+    .itemExactly{
+        padding: 0.5rem;
+    }
+}
+
+@media (max-width: 350px) {
+    .specRow, .specDutiesRow{
+        font-size: 10px;
+    }
+    .specsTitle{
+        font-size: 14px;
     }
 }

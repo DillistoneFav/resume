@@ -9,17 +9,6 @@ const Work = () => {
     return (
         <div className={classes.workContainer}>
             <WorkItem
-                logo={placeStart}
-                title={"place start"}
-                description={"Is a company of web-sites and landings development with WordPress and Django CMS systems."}
-                color={"#9BBF2E"}
-                dates={"December 2020 - February 2021"}
-                position={"HTML, PHP coder (WordPress)"}
-                techObject={placeStartTechnologies}
-                duties={placeStartDuties}
-                link={"https://place-start.ru"}
-            />
-            <WorkItem
                 logo={SedMax}
                 title={"sedmax"}
                 description={"Is a tool that allows you to receive data from various sensor systems or other components and display, process or manage them in a web interface."}
@@ -29,6 +18,17 @@ const Work = () => {
                 techObject={sedmaxTechnologies}
                 duties={sedmaxDuties}
                 link={"https://sedmax.ru"}
+            />
+            <WorkItem
+                logo={placeStart}
+                title={"place start"}
+                description={"Is a company of web-sites and landings development with WordPress and Django CMS systems."}
+                color={"#9BBF2E"}
+                dates={"December 2020 - February 2021"}
+                position={"HTML, PHP coder (WordPress)"}
+                techObject={placeStartTechnologies}
+                duties={placeStartDuties}
+                link={"https://place-start.ru"}
             />
         </div>
     );

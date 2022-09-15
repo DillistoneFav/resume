@@ -1,4 +1,4 @@
-import React, {FC, useEffect} from 'react';
+import React, {FC} from 'react';
 import classes from '../work.module.css'
 
 interface WorkItemProps {
@@ -41,10 +41,6 @@ const WorkItem: FC<WorkItemProps> = ({logo, title, description, color, dates, po
                                     <div
                                         className={classes.specRow}
                                         key={item}
-                                        style={ index % 2
-                                            ? {background: "lightgray"}
-                                            : {background: "#fff"}
-                                        }
                                     >
                                         <div className={classes.specExactly}>{item}</div>
                                         <div className={classes.specDesc}>{values[index]}</div>
@@ -61,10 +57,6 @@ const WorkItem: FC<WorkItemProps> = ({logo, title, description, color, dates, po
                                     return (
                                         <div className={classes.specDutiesRow}
                                              key={item}
-                                             style={ index % 2
-                                                 ? {background: "lightgray"}
-                                                 : {background: "#fff"}
-                                             }
                                         >
                                             {item}
                                         </div>
