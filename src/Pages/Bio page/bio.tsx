@@ -30,9 +30,8 @@ const Pet = () => {
               <div className={classes.realIntro}>
                 <p className={classes.surname}>Melnikov</p>
                 <p className={classes.name}>Kirill</p>
-                <div className={classes.jobPref}>Web Developer & Junior</div>
+                <div className={classes.jobPref}>Junior Web Developer</div>
               </div>
-
             <div className={classes.reactLogo}>
               <img className={classes.reactGIF} alt={"alt"} src={reactGIF}/>
             </div>

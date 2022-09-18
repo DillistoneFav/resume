@@ -71,7 +71,7 @@
     box-shadow: 0px 5px 10px 7px rgba(34, 60, 80, 0.2);
 }
 .itemExactly img{
-    height: 50px;
+    height: 40px;
 }
 
 .companyDescriptionContainer{
@@ -149,6 +149,9 @@
     font-size: 20px;
     min-height: 35px;
     border-bottom: 1px solid lightgrey;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .specDutiesRow:last-child{
     border-bottom: 2px solid lightgray;
@@ -236,6 +239,12 @@
     .itemExactly{
         padding: 0.5rem;
     }
+    .companyName{
+        font-size: 16px;
+    }
+    .specRow, .specDutiesRow{
+        min-height: 25px;
+    }
 }
 
 @media (max-width: 450px) {
@@ -244,6 +253,9 @@
     }
     .itemExactly{
         padding: 0.5rem;
+    }
+    .specRow, .specDutiesRow{
+        min-height: 0;
     }
 }
 

@@ -1,0 +1,219 @@
+.petMainContainer{
+    height: calc(100vh - 75px);
+    display: flex;
+    overflow: hidden;
+}
+.petMainContainer *{
+    font-family: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, Courier, monospace;
+}
+
+.leftSide{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.rightSide{
+    width: 50%;
+    padding: 2.5rem 1rem;
+    display: flex;
+    align-items: center;
+}
+
+.imgCont{
+    overflow-y: auto;
+    max-height: 100%;
+}
+.imgCont::-webkit-scrollbar{
+    display: none;
+}
+.imgCont img{
+    width: 100%;
+    transition: 1s;
+}
+
+.LogoContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.FTlogo{
+    width: 60px;
+    height: 60px;
+}
+.ProjectName{
+    display: flex;
+    align-items: center;
+    font-size: 36px;
+    font-weight: bold;
+    margin-left: 1rem;
+}
+.buttonsContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+.pagesSection{
+    display: flex;
+    margin-top: 1rem;
+    position: relative;
+}
+.buttonsHeader{
+    font-size: 28px;
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    position: absolute;
+    left: 0;
+    top: 50%;
+}
+.ButtonStyles{
+    font-size: 28px;
+    cursor: pointer;
+    background: none;
+    border: none;
+    outline: none;
+    text-decoration: none;
+    padding: 0;
+    margin-top: 5px;
+}
+.underline{
+    text-decoration: underline;
+}
+
+.line{
+    margin-top: 1rem;
+}
+.projectStack{
+    font-size: 28px;
+    width: 100px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.stackExactly{
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+}
+.frontEnd{
+    font-size: 28px;
+    width: 50%;
+    text-align: left;
+    margin-top: 1rem;
+}
+.stackTitle{
+    display: flex;
+    justify-content: center;
+    border-bottom: 2px solid #000;
+    padding-bottom: 5px;
+}
+.tech{
+    text-align: center;
+    font-size: 24px;
+    min-height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.tech:last-child{
+    border-bottom: 2px solid #000;
+}
+
+@media (max-width: 1100px) {
+    .FTlogo{
+        width: 40px;
+        height: 40px;
+    }
+    .ProjectName img{
+        max-width: 400px;
+    }
+    .buttonsHeader, .ButtonStyles, .frontEnd, .tech{
+        font-size: 20px;
+    }
+}
+@media (max-width: 1000px) {
+    .FTlogo{
+        width: 30px;
+        height: 30px;
+    }
+    .ProjectName img{
+        max-width: 300px;
+    }
+    .buttonsHeader, .ButtonStyles, .frontEnd, .tech{
+        font-size: 16px;
+    }
+}
+@media (max-width: 800px) {
+    .petMainContainer:first-child, .petMainContainer:first-child .ButtonStyles{
+        color: #fff !important;
+    }
+    .tech:last-child, .stackTitle{
+        border-bottom: 2px solid #fff !important;
+    }
+    .tech{
+        min-height: 25px;
+    }
+    .petMainContainer{
+        flex-direction: column;
+        height: auto;
+        padding: 3rem 0;
+        width: 100%;
+    }
+    .leftSideCont{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .LogoContainer{
+        margin-top: 0.5rem;
+    }
+    .rightSide{
+        width: calc(100% - 16px);
+        padding: 0.5rem 0.5rem;
+    }
+    .line{
+        display: none;
+    }
+    .imgCont{
+        max-height: 700px;
+    }
+    .leftSide{
+        width: 100%;
+    }
+    .FTlogo{
+        width: 25px;
+        height: 25px;
+    }
+    .ProjectName img{
+        max-width: 200px;
+    }
+    .buttonsHeader, .ButtonStyles, .frontEnd, .tech{
+        font-size: 14px;
+    }
+}
+@media (max-width: 600px) {
+    .pagesSection{
+        margin-top: 5px;
+    }
+    .tech{
+        min-height: 20px;
+    }
+}
+@media (max-width: 500px) {
+    .FTlogo{
+        width: 20px;
+        height: 20px;
+    }
+    .ProjectName img{
+        max-width: 150px;
+    }
+    .buttonsHeader, .ButtonStyles, .frontEnd, .tech{
+        font-size: 12px;
+    }
+    .imgCont{
+        max-height: 400px;
+    }
+}

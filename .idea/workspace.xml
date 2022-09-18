@@ -4,11 +4,17 @@
     <list default="true" id="f05e24b8-edc1-452d-8af6-d46be8df1d22" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/node_modules/.cache/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/.eslintcache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.cache/default-development/0.pack" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/default-development/0.pack" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/node_modules/.cache/default-development/index.pack" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/default-development/index.pack" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/node_modules/.cache/default-development/index.pack.old" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/default-development/index.pack.old" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Pages/Work history page/components/workItem.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pages/Work history page/components/workItem.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Pages/Bio page/bio.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pages/Bio page/bio.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Pages/Bio page/bio.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pages/Bio page/bio.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Pages/Pet projects page/pet.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pages/Pet projects page/pet.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Pages/Work history page/work.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pages/Work history page/work.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Pages/Work history page/work.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pages/Work history page/work.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,8 +55,11 @@
       <recent name="C:\Learning\resume\src\Locales" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Learning\resume\src\assets\Internet shop" />
+      <recent name="C:\Learning\resume\src\assets\Telegram web" />
+      <recent name="C:\Learning\resume\src\assets\Fairy Tail" />
+      <recent name="C:\Learning\resume\src\assets" />
       <recent name="C:\Learning\resume\src" />
-      <recent name="C:\Learning\resume\public" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -62,7 +71,8 @@
       <option name="presentableId" value="Default" />
       <updated>1663021563313</updated>
       <workItem from="1663021565463" duration="5067000" />
-      <workItem from="1663061144205" duration="40625000" />
+      <workItem from="1663061144205" duration="41853000" />
+      <workItem from="1663248938898" duration="38050000" />
     </task>
     <servers />
   </component>
