@@ -1,13 +1,13 @@
-import fairyTailMainPage from "../../../assets/Fairy Tail/Fairy-Tail-Main-Page.png";
-import FTPlayer from "../../../assets/Fairy Tail/FTplayer.png";
-import FTChars from "../../../assets/Fairy Tail/FTChars.png";
-import FTStaff from "../../../assets/Fairy Tail/FTStaff.png";
+import Auth from '../../../assets/Telegram web/Auth.png'
+import Chats from '../../../assets/Telegram web/Chats.png'
+import ProfileModal from '../../../assets/Telegram web/ProfileModal.png'
+import InProgress from '../../../assets/Telegram web/InProgress.png'
 
 export const TGImages = [
-    fairyTailMainPage,
-    FTPlayer,
-    FTChars,
-    FTStaff,
+    Auth,
+    Chats,
+    ProfileModal,
+    InProgress,
 ]
 export const TGImageTitles = [
     "Authenticate/Login Page",

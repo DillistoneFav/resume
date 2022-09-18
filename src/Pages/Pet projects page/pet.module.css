@@ -1,5 +1,5 @@
 .petMainContainer{
-    height: calc(100vh - 75px);
+    height: calc(100vh - 50px);
     display: flex;
     overflow: hidden;
 }
@@ -192,6 +192,9 @@
     }
     .buttonsHeader, .ButtonStyles, .frontEnd, .tech{
         font-size: 14px;
+    }
+    .buttonsHeader{
+        left: -30px;
     }
 }
 @media (max-width: 600px) {

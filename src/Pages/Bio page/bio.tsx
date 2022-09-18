@@ -12,6 +12,7 @@ import MultipleStopIcon from "@mui/icons-material/MultipleStop";
 import PanoramaIcon from "@mui/icons-material/Panorama";
 import ApiIcon from "@mui/icons-material/Api";
 import MonitorIcon from "@mui/icons-material/Monitor";
+import CssIcon from '@mui/icons-material/Css';
 import classes from "./bio.module.css"
 
 const Pet = () => {
@@ -20,7 +21,7 @@ const Pet = () => {
     if (newWindow) newWindow.opener = null;
   };
   return (
-      <>
+      <div className={classes.mainContBio}>
         <div className={classes.firstSect}>
           <div className={classes.leftSide}>
             <img className={classes.myPhoto} alt={"my img"} src={myPhoto} />
@@ -89,12 +90,18 @@ const Pet = () => {
             </div>
           </div>
           <div className={classes.rightSide}>
-            <WorkItem number={"01"} title={"HTML (PUG)"} description={"Adaptive markup, HTML template usage, BEM methodology"}/>
-            <WorkItem number={"02"} title={"ADVANCED CSS"} description={"CSS Animations, Flex/Grid layout, SASS/SCSS preprocessing, CSS modules"}/>
-            <WorkItem number={"03"} title={"Javascript/Typescript"} description={"OOP, Functional programming, SOLID/DRY principles, Promises, Async/Await"}/>
-            <WorkItem number={"04"} title={"React JS"} description={"Functional components, Class components, react-router, Rest API usage, Webpack, SPA development, State managers"}/>
-            <WorkItem number={"05"} title={"Git/GitLab/others"} description={"Things all programmers must do"}/>
-            <WorkItem number={"06"} title={"Node JS"} description={"A bit backend knowledge (express, sequelize, SQL)"}/>
+            <div className={classes.row}>
+              <WorkItem number={"01"} title={"HTML (PUG)"} description={"Adaptive markup, HTML template usage, BEM methodology, Flex/Grid layout"}/>
+              <WorkItem number={"02"} title={"ADVANCED CSS"} description={"CSS Animations, Flex/Grid layout, SASS/SCSS preprocessing, CSS modules"}/>
+            </div>
+            <div className={classes.row}>
+              <WorkItem number={"03"} title={"Javascript/Typescript"} description={"OOP, Functional programming, SOLID/DRY principles, Promises, Async/Await"}/>
+              <WorkItem number={"04"} title={"React JS"} description={"Functional components, Class components, react-router, Rest API usage, Webpack, SPA development, State managers"}/>
+            </div>
+            <div className={classes.row}>
+              <WorkItem number={"06"} title={"Figma"} description={"I can work with layouts and designs"}/>
+              <WorkItem number={"05"} title={"Git/GitLab/others"} description={"Things all programmers must do"}/>
+            </div>
           </div>
         </div>
         <div className={classes.fourthSect}>
@@ -105,37 +112,45 @@ const Pet = () => {
             </div>
           </div>
           <div className={classes.rightSide}>
-            <FeatureItem
-                icon={<FolderIcon className={classes.featIcon} />}
-                title={"Webpack"}
-            />
-            <FeatureItem
-                icon={<AccountBalanceIcon className={classes.featIcon} />}
-                title={"Mobx/Redux"}
-            />
-            <FeatureItem
-                icon={<TranslateIcon className={classes.featIcon} />}
-                title={"i18next"}
-            />
-            <FeatureItem
-                icon={<MultipleStopIcon className={classes.featIcon} />}
-                title={"Websocket"}
-            />
-            <FeatureItem
-                icon={<PanoramaIcon className={classes.featIcon} />}
-                title={"UI React kits"}
-            />
-            <FeatureItem
-                icon={<ApiIcon className={classes.featIcon} />}
-                title={"Rest API"}
-            />
-            <FeatureItem
-                icon={<MonitorIcon className={classes.featIcon} />}
-                title={"UI/UX"}
-            />
+            <div className={classes.row}>
+              <FeatureItem
+                  icon={<FolderIcon className={classes.featIcon} />}
+                  title={"Webpack"}
+              />
+              <FeatureItem
+                  icon={<AccountBalanceIcon className={classes.featIcon} />}
+                  title={"Mobx/Redux"}
+              />
+              <FeatureItem
+                  icon={<TranslateIcon className={classes.featIcon} />}
+                  title={"i18next"}
+              />
+              <FeatureItem
+                  icon={<MultipleStopIcon className={classes.featIcon} />}
+                  title={"Websocket"}
+              />
+            </div>
+            <div className={classes.row}>
+              <FeatureItem
+                  icon={<PanoramaIcon className={classes.featIcon} />}
+                  title={"UI React kits"}
+              />
+              <FeatureItem
+                  icon={<CssIcon className={classes.featIcon} />}
+                  title={"Preprocessors"}
+              />
+              <FeatureItem
+                  icon={<ApiIcon className={classes.featIcon} />}
+                  title={"Rest API"}
+              />
+              <FeatureItem
+                  icon={<MonitorIcon className={classes.featIcon} />}
+                  title={"UI/UX"}
+              />
+            </div>
           </div>
         </div>
-      </>
+      </div>
   );
 };
 

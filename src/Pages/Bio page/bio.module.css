@@ -1,4 +1,6 @@
-
+.mainContBio{
+    height: calc(100vh - 50px);
+}
 
 .firstSect .rightSide p{
     margin: 0;
@@ -21,7 +23,6 @@
     width: 80%;
     background: #fff;
     padding: 0 2rem 0 2rem;
-    margin-bottom: 2rem;
 }
 
 .myPhoto {
@@ -58,7 +59,7 @@
 .jobPref {
     width: 100%;
     text-align: left;
-    margin-top: 1rem;
+    margin-top: 0.5rem;
     color: var(--secondary-text-color);
     font-size: 1.5rem;
 }
@@ -74,9 +75,9 @@
     text-align: left;
     display: flex;
     align-items: center;
-    margin-top: 3rem;
+    margin-top: 1rem;
     border-bottom: 3px solid var(--secondary-text-color);
-    padding-bottom: 2rem;
+    padding-bottom: 1rem;
 }
 
 .info {
@@ -84,7 +85,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-top: 3rem;
+    margin-top: 0.5rem;
     flex-wrap: wrap;
 }
 
@@ -96,7 +97,6 @@
 .infoTitle {
     font-weight: bold;
     color: var(--text-color);
-    margin-bottom: 0.5rem;
 }
 
 .infoDesc {
@@ -144,13 +144,14 @@
 }
 .thirdSect .workItem {
     display: flex;
-    width: 50%;
-    margin-top: 1rem;
+    width: 45%;
+}
+.thirdSect .row{
+    width: 100%;
 }
 
 .workItemNumber {
-    width: 10%;
-    min-width: 10%;
+    margin-right: 5px;
     font-size: 32px;
     color: var(--orange-text-color);
     font-weight: bold;
@@ -170,7 +171,7 @@
 
 .workItemDescription {
     text-align: left;
-    margin-top: 0.5rem;
+    margin-top: 5px;
     color: var(--secondary-text-color);
     font-size: 20px;
 }
@@ -182,31 +183,37 @@
 }
 .fourthSect .rightSide{
     display: flex;
+    flex-direction: column;
+    height: 155px;
+}
+.row{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0.5rem;
     flex-wrap: wrap;
-    justify-content: space-around;
-    margin-top: -2rem;
+}
+.row:first-child{
+    margin-top: 15px;
+}
+.fourthSect .leftSide{
+    padding-top: 1rem;
 }
 .featureCont {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
     font-size: 32px;
     color: var(--orange-text-color);
-    margin-top: 2rem;
-    width: 25%;
+    min-width: 250px;
 }
 
 .featIcon {
-    margin-right: 10px;
-    font-size: 3rem !important;
+    margin-right: 5px;
+    font-size: 2rem !important;
 }
 
 .featText {
     color: var(--text-color)
-}
-
-.fourthSect .leftSide, .fourthSect .rightSide{
-    padding-bottom: 2rem;
 }
 
 .introduction{
@@ -229,6 +236,14 @@
     width: 158px;
 }
 
+@media (max-width: 1400px) {
+    .featureCont{
+        width: 50%;
+    }
+    .fourthSect .rightSide{
+        height: auto;
+    }
+}
 @media (max-width: 1300px) {
     .myPhoto{
         width: 200px;
@@ -249,6 +264,9 @@
     }
     .featureCont{
         width: 100%;
+    }
+    .row{
+        margin-top: 0 !important;
     }
 }
 
@@ -316,8 +334,12 @@
         align-items: flex-start;
         margin-bottom: 0;
     }
+    .fourthSect .leftSide{
+        padding-top: 0;
+    }
     .featureCont{
         margin-top: 0.5rem;
+        min-width: 200px;
     }
     .featText{
         font-size: 24px;

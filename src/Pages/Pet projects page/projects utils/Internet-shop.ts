@@ -1,13 +1,17 @@
-import fairyTailMainPage from "../../../assets/Fairy Tail/Fairy-Tail-Main-Page.png";
-import FTPlayer from "../../../assets/Fairy Tail/FTplayer.png";
-import FTChars from "../../../assets/Fairy Tail/FTChars.png";
-import FTStaff from "../../../assets/Fairy Tail/FTStaff.png";
+import AdminPanel from '../../../assets/Internet shop/AdminPanel.png'
+import MainPage from '../../../assets/Internet shop/MainPage.png'
+import CartPage from '../../../assets/Internet shop/Cart.png'
+import DevicePage from '../../../assets/Internet shop/DevicePage.png'
+import DeviceModal from '../../../assets/Internet shop/EditModal.png'
+import Auth from '../../../assets/Internet shop/Auth.png'
 
 export const IEImages = [
-    fairyTailMainPage,
-    FTPlayer,
-    FTChars,
-    FTStaff,
+    MainPage,
+    CartPage,
+    AdminPanel,
+    DevicePage,
+    DeviceModal,
+    Auth,
 ]
 export const IEImageTitles = [
     "Main Page",
@@ -21,9 +25,9 @@ export const IEFrontSpecs = [
     "CSS Modules",
     "React (MobX)",
     "Javascript",
-    "Rest API, Axious",
+    "Rest API",
     "ANT Design",
-    "React Bootstrap"
+    "Bootstrap"
 ]
 export const IEBackSpecs = [
     "Node JS",
