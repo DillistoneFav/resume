@@ -1,17 +1,24 @@
 {
   "files": {
-    "main.css": "/resume/static/css/main.c1f099c4.css",
-    "main.js": "/resume/static/js/main.88cd76b3.js",
+    "main.css": "/resume/static/css/main.ddafa321.css",
+    "main.js": "/resume/static/js/main.13ee1491.js",
+    "static/media/Fairy-Tail-Main-Page.png": "/resume/static/media/Fairy-Tail-Main-Page.22cdb4c9afecad77f476.png",
+    "static/media/FTChars.png": "/resume/static/media/FTChars.bd71ea07e96517bcfe4c.png",
+    "static/media/FTStaff.png": "/resume/static/media/FTStaff.d6213a5cddaa81f5b453.png",
+    "static/media/FTplayer.png": "/resume/static/media/FTplayer.0f54cf1266e77f7ceb9d.png",
     "static/media/me.png": "/resume/static/media/me.9078417c39ef1e893a50.png",
+    "static/media/Fairy-Tail-logo.png": "/resume/static/media/Fairy-Tail-logo.2dcec193702330ae3791.png",
     "static/media/reactGIF.gif": "/resume/static/media/reactGIF.86b75615525bd83ea0a4.gif",
+    "static/media/TGCutLogo.png": "/resume/static/media/TGCutLogo.cda2ad87a3402baf0096.png",
+    "static/media/IELogo.png": "/resume/static/media/IELogo.92ef9f37ce92e26c8667.png",
     "static/media/place-logo.svg": "/resume/static/media/place-logo.ffc95849d042a4b72aa35249e3eac7c0.svg",
     "static/media/logo-sedmax.svg": "/resume/static/media/logo-sedmax.a40b3e2cdf56bd4cbcee40e1f04a9aa2.svg",
     "index.html": "/resume/index.html",
-    "main.c1f099c4.css.map": "/resume/static/css/main.c1f099c4.css.map",
-    "main.88cd76b3.js.map": "/resume/static/js/main.88cd76b3.js.map"
+    "main.ddafa321.css.map": "/resume/static/css/main.ddafa321.css.map",
+    "main.13ee1491.js.map": "/resume/static/js/main.13ee1491.js.map"
   },
   "entrypoints": [
-    "static/css/main.c1f099c4.css",
-    "static/js/main.88cd76b3.js"
+    "static/css/main.ddafa321.css",
+    "static/js/main.13ee1491.js"
   ]
 }
