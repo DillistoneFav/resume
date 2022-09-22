@@ -38,6 +38,7 @@ const Pet = () => {
                 borderColor={"1px solid #D179D1"}
                 fontColor={"#D179D1"}
                 borderBottom={"#D179D1"}
+                pagesLeft={-100}
             />
             <ProjectItem
                 logo={FTLogo}

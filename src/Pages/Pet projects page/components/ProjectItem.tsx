@@ -14,6 +14,7 @@ interface ProjectItemProps {
     borderColor: string;
     fontColor: string;
     borderBottom?: string;
+    pagesLeft?: number;
 }
 
 const ProjectItem: FC<ProjectItemProps> = ({
@@ -28,6 +29,7 @@ const ProjectItem: FC<ProjectItemProps> = ({
         borderColor,
         fontColor,
         borderBottom,
+        pagesLeft
     }) => {
 
     const [selectedIMG, setSelectedIMG] = useState<string>(sliderImages[0])
@@ -41,7 +43,7 @@ const ProjectItem: FC<ProjectItemProps> = ({
                         <div className={classes.ProjectName}><img alt="projName" src={name}/></div>
                     </div>
                     <div className={classes.pagesSection}>
-                        <div className={classes.buttonsHeader}><span>Pages:</span></div>
+                        <div style={pagesLeft ? {left: pagesLeft} : {}} className={classes.buttonsHeader}><span>Pages:</span></div>
                         <div className={classes.buttonsContainer}>
                             {titles.map((item, index) => {
                                 return (

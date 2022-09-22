@@ -194,7 +194,7 @@
         font-size: 14px;
     }
     .buttonsHeader{
-        left: -30px;
+        left: -30px !important;
     }
 }
 @media (max-width: 600px) {
