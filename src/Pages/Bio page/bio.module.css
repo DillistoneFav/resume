@@ -1,5 +1,7 @@
 .mainContBio{
-    height: calc(100vh - 50px);
+    height: calc(100vh - 50px) !important;
+    display: flex;
+    flex-direction: column;
 }
 
 .firstSect .rightSide p{
@@ -152,7 +154,7 @@
 
 .workItemNumber {
     margin-right: 5px;
-    font-size: 32px;
+    font-size: 26px;
     color: var(--orange-text-color);
     font-weight: bold;
     text-align: center;
@@ -165,7 +167,7 @@
 
 .workItemTitle {
     text-align: left;
-    font-size: 32px;
+    font-size: 26px;
     color: var(--text-color);
 }
 
@@ -173,7 +175,7 @@
     text-align: left;
     margin-top: 5px;
     color: var(--secondary-text-color);
-    font-size: 20px;
+    font-size: 18px;
 }
 
 
@@ -202,7 +204,7 @@
     display: flex;
     align-items: center;
     justify-content: flex-start;
-    font-size: 32px;
+    font-size: 28px;
     color: var(--orange-text-color);
     min-width: 250px;
 }
@@ -382,4 +384,13 @@
         font-size: 14px;
         width: 200px;
     }
+}
+
+.fifthSect{
+    height: 1000px !important;
+    overflow: hidden;
+}
+.fifthSect .leftSide{
+    height: 1000px;
+    padding-right: 0;
 }

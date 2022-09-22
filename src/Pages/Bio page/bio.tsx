@@ -95,7 +95,7 @@ const Pet = () => {
               <WorkItem number={"02"} title={"ADVANCED CSS"} description={"CSS Animations, Flex/Grid layout, SASS/SCSS preprocessing, CSS modules"}/>
             </div>
             <div className={classes.row}>
-              <WorkItem number={"03"} title={"Javascript/Typescript"} description={"OOP, Functional programming, SOLID/DRY principles, Promises, Async/Await"}/>
+              <WorkItem number={"03"} title={"Javascript/Typescript"} description={"OOP, Functional programming, SOLID/DRY principles (not an expert), Promises, Async/Await"}/>
               <WorkItem number={"04"} title={"React JS"} description={"Functional components, Class components, react-router, Rest API usage, Webpack, SPA development, State managers"}/>
             </div>
             <div className={classes.row}>
@@ -149,6 +149,10 @@ const Pet = () => {
               />
             </div>
           </div>
+        </div>
+        <div className={classes.fifthSect}>
+          <div className={classes.leftSide}></div>
+          <div className={classes.rightSide}>1</div>
         </div>
       </div>
   );

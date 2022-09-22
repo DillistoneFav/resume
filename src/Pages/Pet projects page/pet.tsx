@@ -15,18 +15,6 @@ const Pet = () => {
     return (
         <div>
             <ProjectItem
-                logo={FTLogo}
-                name={FTName}
-                background={"linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(154,20,48,1) 50%, rgba(0,0,0,1) 100%)"}
-                boxShadow={"0px 0px 10px 10px rgba(154, 20, 48, 0.2)"}
-                sliderImages={FTimgs}
-                titles={FaityTailImageTitles}
-                frontSpecs={FairyTailFrontSpecs}
-                backSpecs={FairyTailBackSpecs}
-                borderColor={"1px solid rgba(255, 124, 124, 0.49)"}
-                fontColor={"#000"}
-            />
-            <ProjectItem
                 logo={IELogo}
                 name={IEName}
                 background={"linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(75,30,255,1) 50%, rgba(0,0,0,1) 100%)"}
@@ -50,6 +38,18 @@ const Pet = () => {
                 borderColor={"1px solid #D179D1"}
                 fontColor={"#D179D1"}
                 borderBottom={"#D179D1"}
+            />
+            <ProjectItem
+                logo={FTLogo}
+                name={FTName}
+                background={"linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(154,20,48,1) 50%, rgba(0,0,0,1) 100%)"}
+                boxShadow={"0px 0px 10px 10px rgba(154, 20, 48, 0.2)"}
+                sliderImages={FTimgs}
+                titles={FaityTailImageTitles}
+                frontSpecs={FairyTailFrontSpecs}
+                backSpecs={FairyTailBackSpecs}
+                borderColor={"1px solid rgba(255, 124, 124, 0.49)"}
+                fontColor={"#000"}
             />
         </div>
     );
