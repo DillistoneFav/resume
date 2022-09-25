@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/resume/static/css/main.1e569d05.css",
-    "main.js": "/resume/static/js/main.4ef60de4.js",
+    "main.js": "/resume/static/js/main.71dc6904.js",
     "static/media/Fairy-Tail-Main-Page.png": "/resume/static/media/Fairy-Tail-Main-Page.22cdb4c9afecad77f476.png",
     "static/media/FTChars.png": "/resume/static/media/FTChars.bd71ea07e96517bcfe4c.png",
     "static/media/FTStaff.png": "/resume/static/media/FTStaff.d6213a5cddaa81f5b453.png",
@@ -10,7 +10,7 @@
     "static/media/me.png": "/resume/static/media/me.9078417c39ef1e893a50.png",
     "static/media/Cart.png": "/resume/static/media/Cart.94de54af0946ce92e872.png",
     "static/media/DevicePage.png": "/resume/static/media/DevicePage.2f629025470ba44122fc.png",
-    "static/media/Chats.png": "/resume/static/media/Chats.717c12cbd702a3c4c26b.png",
+    "static/media/Chats.png": "/resume/static/media/Chats.9c63b6ba65ac390c9d36.png",
     "static/media/InProgress.png": "/resume/static/media/InProgress.535c5c302c7a0e08fbe2.png",
     "static/media/EditModal.png": "/resume/static/media/EditModal.99943d2339da4239891b.png",
     "static/media/AdminPanel.png": "/resume/static/media/AdminPanel.6b08e37b8bf4cb0483c5.png",
@@ -22,10 +22,10 @@
     "static/media/logo-sedmax.svg": "/resume/static/media/logo-sedmax.a40b3e2cdf56bd4cbcee40e1f04a9aa2.svg",
     "index.html": "/resume/index.html",
     "main.1e569d05.css.map": "/resume/static/css/main.1e569d05.css.map",
-    "main.4ef60de4.js.map": "/resume/static/js/main.4ef60de4.js.map"
+    "main.71dc6904.js.map": "/resume/static/js/main.71dc6904.js.map"
   },
   "entrypoints": [
     "static/css/main.1e569d05.css",
-    "static/js/main.4ef60de4.js"
+    "static/js/main.71dc6904.js"
   ]
 }
