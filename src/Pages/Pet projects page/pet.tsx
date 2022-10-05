@@ -9,6 +9,8 @@ import TGlogo from "../../assets/Telegram web/TGCutLogo.png"
 import {IEBackSpecs, IEFrontSpecs, IEImages, IEImageTitles} from "./projects utils/Internet-shop";
 import IELogo from "../../assets/Internet shop/IELogo.png"
 import IEName from "../../assets/Internet shop/IEName2.png"
+import {IntechImageTitles, IntechIMGS, IntechFrontSpec, IntechBacktSpec} from "./projects utils/Intechcom";
+import IntechLogo from "../../assets/Intechcom/logo.png"
 
 
 const Pet = () => {
@@ -51,6 +53,18 @@ const Pet = () => {
                 backSpecs={FairyTailBackSpecs}
                 borderColor={"1px solid rgba(255, 124, 124, 0.49)"}
                 fontColor={"#000"}
+            />
+            <ProjectItem
+                name={IntechLogo}
+                background={"linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(242,128,13,1) 50%, rgba(0,0,0,1) 100%)"}
+                boxShadow={"0px 0px 10px 10px rgba(242, 128, 13, 0.2)"}
+                sliderImages={IntechIMGS}
+                titles={IntechImageTitles}
+                frontSpecs={IntechFrontSpec}
+                backSpecs={IntechBacktSpec}
+                borderColor={"1px solid rgba(255, 255, 255, 0.49)"}
+                fontColor={"#fff"}
+                pagesLeft={-100}
             />
         </div>
     );

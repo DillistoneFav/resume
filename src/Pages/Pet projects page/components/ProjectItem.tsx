@@ -3,7 +3,7 @@ import classes from "../pet.module.css";
 import MyButton from "./MyButton";
 
 interface ProjectItemProps {
-    logo: string;
+    logo?: string;
     name: string;
     background: string;
     boxShadow: string;
@@ -39,7 +39,10 @@ const ProjectItem: FC<ProjectItemProps> = ({
             <div className={classes.leftSide}>
                 <div className={classes.leftSideCont}>
                     <div className={classes.LogoContainer}>
-                        <img className={classes.FTlogo} alt="projLogo" src={logo}/>
+                        {logo ?
+                            <img className={classes.FTlogo} alt="projLogo" src={logo}/>
+                            : <></>
+                        }
                         <div className={classes.ProjectName}><img alt="projName" src={name}/></div>
                     </div>
                     <div className={classes.pagesSection}>
