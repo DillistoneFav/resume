@@ -1,11 +1,15 @@
 {
   "files": {
     "main.css": "/resume/static/css/main.1e569d05.css",
-    "main.js": "/resume/static/js/main.89fdbad4.js",
+    "main.js": "/resume/static/js/main.0688cffc.js",
     "static/media/Fairy-Tail-Main-Page.png": "/resume/static/media/Fairy-Tail-Main-Page.22cdb4c9afecad77f476.png",
     "static/media/FTChars.png": "/resume/static/media/FTChars.bd71ea07e96517bcfe4c.png",
     "static/media/FTStaff.png": "/resume/static/media/FTStaff.d6213a5cddaa81f5b453.png",
     "static/media/FTplayer.png": "/resume/static/media/FTplayer.0f54cf1266e77f7ceb9d.png",
+    "static/media/mainPage.png": "/resume/static/media/mainPage.74e4cd6eb09630642e01.png",
+    "static/media/projects.png": "/resume/static/media/projects.0da02d289d94c9ab53ac.png",
+    "static/media/contacts.png": "/resume/static/media/contacts.fa4fc620134331630cbc.png",
+    "static/media/marketItem.png": "/resume/static/media/marketItem.5824ff1df651994e388a.png",
     "static/media/MainPage.png": "/resume/static/media/MainPage.58a631c3cacabc297154.png",
     "static/media/me.png": "/resume/static/media/me.9078417c39ef1e893a50.png",
     "static/media/Cart.png": "/resume/static/media/Cart.94de54af0946ce92e872.png",
@@ -22,10 +26,10 @@
     "static/media/logo-sedmax.svg": "/resume/static/media/logo-sedmax.a40b3e2cdf56bd4cbcee40e1f04a9aa2.svg",
     "index.html": "/resume/index.html",
     "main.1e569d05.css.map": "/resume/static/css/main.1e569d05.css.map",
-    "main.89fdbad4.js.map": "/resume/static/js/main.89fdbad4.js.map"
+    "main.0688cffc.js.map": "/resume/static/js/main.0688cffc.js.map"
   },
   "entrypoints": [
     "static/css/main.1e569d05.css",
-    "static/js/main.89fdbad4.js"
+    "static/js/main.0688cffc.js"
   ]
 }
