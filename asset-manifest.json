@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/resume/static/css/main.0507002e.css",
+    "main.css": "/resume/static/css/main.31377819.css",
     "main.js": "/resume/static/js/main.bdcfc71c.js",
     "static/media/Fairy-Tail-Main-Page.png": "/resume/static/media/Fairy-Tail-Main-Page.22cdb4c9afecad77f476.png",
     "static/media/FTChars.png": "/resume/static/media/FTChars.bd71ea07e96517bcfe4c.png",
@@ -30,11 +30,11 @@
     "static/media/place-logo.svg": "/resume/static/media/place-logo.ffc95849d042a4b72aa35249e3eac7c0.svg",
     "static/media/logo-sedmax.svg": "/resume/static/media/logo-sedmax.a40b3e2cdf56bd4cbcee40e1f04a9aa2.svg",
     "index.html": "/resume/index.html",
-    "main.0507002e.css.map": "/resume/static/css/main.0507002e.css.map",
+    "main.31377819.css.map": "/resume/static/css/main.31377819.css.map",
     "main.bdcfc71c.js.map": "/resume/static/js/main.bdcfc71c.js.map"
   },
   "entrypoints": [
-    "static/css/main.0507002e.css",
+    "static/css/main.31377819.css",
     "static/js/main.bdcfc71c.js"
   ]
 }
