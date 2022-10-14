@@ -2,6 +2,7 @@
     height: calc(100vh - 50px);
     display: flex;
     overflow: hidden;
+    min-height: 700px;
 }
 .petMainContainer *{
     font-family: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, Courier, monospace;

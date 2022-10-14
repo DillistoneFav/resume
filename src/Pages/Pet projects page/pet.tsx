@@ -11,6 +11,8 @@ import IELogo from "../../assets/Internet shop/IELogo.png"
 import IEName from "../../assets/Internet shop/IEName2.png"
 import {IntechImageTitles, IntechIMGS, IntechFrontSpec, IntechBacktSpec} from "./projects utils/Intechcom";
 import IntechLogo from "../../assets/Intechcom/logo.png"
+import { TestTaskBackSpecs, TestTaskFrontSpecs, TestTaskImageTitles, TestTaskImgs } from './projects utils/Test-tasks';
+import testTasksLogo from "../../assets/Test Tasks/Micro-Tasks.png"
 
 
 const Pet = () => {
@@ -28,6 +30,7 @@ const Pet = () => {
                 borderColor={"1px solid #fff"}
                 fontColor={"#fff"}
                 borderBottom={"#fff"}
+                key={0}
             />
             <ProjectItem
                 logo={TGlogo}
@@ -41,6 +44,7 @@ const Pet = () => {
                 fontColor={"#D179D1"}
                 borderBottom={"#D179D1"}
                 pagesLeft={-100}
+                key={1}
             />
             <ProjectItem
                 logo={FTLogo}
@@ -53,6 +57,20 @@ const Pet = () => {
                 backSpecs={FairyTailBackSpecs}
                 borderColor={"1px solid rgba(255, 124, 124, 0.49)"}
                 fontColor={"#000"}
+                key={2}
+            />
+            <ProjectItem
+                name={testTasksLogo}
+                background={"linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(13,242,82,1) 50%, rgba(0,0,0,1) 100%)"}
+                boxShadow={"0px 0px 10px 10px rgba(13, 232, 79, 0.2)"}
+                sliderImages={TestTaskImgs}
+                titles={TestTaskImageTitles}
+                frontSpecs={TestTaskFrontSpecs}
+                backSpecs={TestTaskBackSpecs}
+                borderColor={"1px solid rgba(255, 124, 124, 0.49)"}
+                fontColor={"#000"}
+                pagesLeft={-100}
+                key={3}
             />
             <ProjectItem
                 name={IntechLogo}
@@ -65,6 +83,7 @@ const Pet = () => {
                 borderColor={"1px solid rgba(255, 255, 255, 0.49)"}
                 fontColor={"#fff"}
                 pagesLeft={-100}
+                key={4}
             />
         </div>
     );
