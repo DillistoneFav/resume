@@ -1,7 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f05e24b8-edc1-452d-8af6-d46be8df1d22" name="Changes" comment="" />
+    <list default="true" id="f05e24b8-edc1-452d-8af6-d46be8df1d22" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.cache/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/.eslintcache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.cache/default-development/0.pack" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/default-development/0.pack" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.cache/default-development/1.pack" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/default-development/1.pack" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.cache/default-development/index.pack" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/default-development/index.pack" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.cache/default-development/index.pack.old" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/default-development/index.pack.old" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Pages/Bio page/bio.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pages/Bio page/bio.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Pages/Bio page/bio.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pages/Bio page/bio.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Pages/Pet projects page/components/ProjectItem.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pages/Pet projects page/components/ProjectItem.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Pages/Pet projects page/pet.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pages/Pet projects page/pet.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Pages/Pet projects page/pet.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pages/Pet projects page/pet.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Pages/Pet projects page/projects utils/Telegram-web.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pages/Pet projects page/projects utils/Telegram-web.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Pages/Pet projects page/projects utils/Test-tasks.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pages/Pet projects page/projects utils/Test-tasks.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/Intechcom/logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/Intechcom/logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/Test Tasks/Micro-Tasks.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/Test Tasks/Micro-Tasks.png" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -26,7 +42,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Learning/telegram-web",
+    "last_opened_file_path": "C:/Learning/resume",
     "nodejs_package_manager_path": "npm",
     "settings.editor.selected.configurable": "preferences.keymap",
     "ts.external.directory.path": "C:\\Learning\\resume\\node_modules\\typescript\\lib",
@@ -65,6 +81,11 @@
       <workItem from="1663878064601" duration="956000" />
       <workItem from="1663912990453" duration="119000" />
       <workItem from="1664976420641" duration="813000" />
+      <workItem from="1665742354632" duration="4464000" />
+      <workItem from="1665752530717" duration="1927000" />
+      <workItem from="1665760990804" duration="6500000" />
+      <workItem from="1665924272284" duration="55000" />
+      <workItem from="1666034113226" duration="4261000" />
     </task>
     <servers />
   </component>

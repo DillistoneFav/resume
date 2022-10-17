@@ -15,6 +15,7 @@ interface ProjectItemProps {
     fontColor: string;
     borderBottom?: string;
     pagesLeft?: number;
+    pos: string;
 }
 
 const ProjectItem: FC<ProjectItemProps> = ({
@@ -29,19 +30,21 @@ const ProjectItem: FC<ProjectItemProps> = ({
         borderColor,
         fontColor,
         borderBottom,
-        pagesLeft
+        pagesLeft,
+        pos
     }) => {
 
     const [selectedIMG, setSelectedIMG] = useState<string>(sliderImages[0])
 
-    return (
+    return pos === "left" ? (
         <div className={classes.petMainContainer} style={{background: background, color: fontColor}}>
             <div className={classes.leftSide}>
                 <div className={classes.leftSideCont}>
                     <div className={classes.LogoContainer}>
                         {logo ?
                             <img className={classes.FTlogo} alt="projLogo" src={logo}/>
-                            : <></>
+                            :
+                            <></>
                         }
                         <div className={classes.ProjectName}><img alt="projName" src={name}/></div>
                     </div>
@@ -65,15 +68,15 @@ const ProjectItem: FC<ProjectItemProps> = ({
                     <div style={{border: borderColor}} className={classes.line}></div>
                     <div className={classes.stackExactly}>
                         <div style={backSpecs ? {width: "50%"} : {width: "100%"}} className={classes.frontEnd}>
-                            <div style={borderBottom ? {borderBottom: `2px solid ${borderBottom}`} : {}} className={classes.stackTitle}>Frontend</div>
+                            <div style={borderBottom ? {borderBottom: `2px solid ${borderBottom}`, color: "#FFFF00"} : {color: "#FFFF00"}} className={classes.stackTitle}>Frontend</div>
                             {frontSpecs.map((item, index) => {
-                                return <div style={(index === frontSpecs.length-1) ? {borderBottom: `2px solid ${borderBottom}`} : {}} className={classes.tech}>{item}</div>
+                                return <div className={classes.tech}>{item}</div>
                             })}
                         </div>
                         <div style={backSpecs ? {display: "block"} : {display: "none"}} className={classes.frontEnd}>
-                            <div style={borderBottom ? {borderBottom: `2px solid ${borderBottom}`} : {}} className={classes.stackTitle}>Backend</div>
+                            <div style={borderBottom ? {borderBottom: `2px solid ${borderBottom}`, color: "#FF0000"} : {color: "#FF0000"}} className={classes.stackTitle}>Backend</div>
                             {backSpecs?.map((item, index) => {
-                                return <div style={(index === frontSpecs.length-1) ? {borderBottom: `2px solid ${borderBottom}`} : {}} className={classes.tech}>{item}</div>
+                                return <div className={classes.tech}>{item}</div>
                             })}
                         </div>
                     </div>
@@ -81,6 +84,56 @@ const ProjectItem: FC<ProjectItemProps> = ({
             </div>
             <div className={classes.rightSide}>
                 <div style={{boxShadow: boxShadow}} className={classes.imgCont}><img alt={"selectedPNG"} src={selectedIMG}/></div>
+            </div>
+        </div>
+    ) : (
+        <div className={classes.petMainContainer} style={{background: background, color: fontColor}}>
+            <div className={classes.rightSide}>
+                <div style={{boxShadow: boxShadow}} className={classes.imgCont}><img alt={"selectedPNG"} src={selectedIMG}/></div>
+            </div>
+            <div className={classes.leftSide}>
+                <div className={classes.leftSideCont}>
+                    <div className={classes.LogoContainer}>
+                        {logo ?
+                            <img className={classes.FTlogo} alt="projLogo" src={logo}/>
+                            :
+                            <></>
+                        }
+                        <div className={classes.ProjectName}><img alt="projName" src={name}/></div>
+                    </div>
+                    <div className={classes.pagesSection}>
+                        <div style={pagesLeft ? {left: pagesLeft} : {}} className={classes.buttonsHeader}><span>Pages:</span></div>
+                        <div className={classes.buttonsContainer}>
+                            {titles.map((item, index) => {
+                                return (
+                                    <MyButton
+                                        title={item}
+                                        selectedIMG={selectedIMG}
+                                        IMGArray={sliderImages}
+                                        setSelectedItem={setSelectedIMG}
+                                        number={index}
+                                        fontColor={fontColor}
+                                    />
+                                )
+                            })}
+                        </div>
+                    </div>
+                    <div style={{border: borderColor}} className={classes.line}></div>
+                    <div className={classes.stackExactly}>
+                        <div style={backSpecs ? {width: "50%"} : {width: "100%"}} className={classes.frontEnd}>
+                            <div style={borderBottom ? {borderBottom: `2px solid ${borderBottom}`, color: "#FFFF00"} : {color: "#FFFF00"}} className={classes.stackTitle}>Frontend</div>
+                            {frontSpecs.map((item, index) => {
+                                return <div style={(index === frontSpecs.length-1) ? {borderBottom: `2px solid ${borderBottom}`} : {}} className={classes.tech}>{item}</div>
+                            })}
+                        </div>
+                        <div style={backSpecs ? {display: "block"} : {display: "none"}} className={classes.frontEnd}>
+                            <div style={borderBottom ? {borderBottom: `2px solid ${borderBottom}`, color: "#FF0000"} : {color: "#FF0000"}} className={classes.stackTitle}>Backend</div>
+                            {backSpecs?.map((item, index) => {
+                                return <div style={(index === frontSpecs.length-1) ? {borderBottom: `2px solid ${borderBottom}`} : {}} className={classes.tech}>{item}</div>
+                            })}
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     );

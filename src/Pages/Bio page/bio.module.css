@@ -15,32 +15,35 @@
     display: flex;
 }
 
+.firstSect .rightSide{
+    border-bottom: 3px solid #e7e7e7;
+}
+
 .leftSide {
     width: 20%;
     min-width: 90px;
     background: #e7e7e7;
     padding-right: 1rem;
+    display: flex;
+    align-items: center;
 }
 .rightSide{
     width: 80%;
     background: #fff;
-    padding: 0 2rem 0 2rem;
+    padding: 1rem;
+    border-bottom: 3px solid #e7e7e7;
 }
 
 .myPhoto {
     border-radius: 50%;
-    width: 250px;
-    height: 250px;
+    width: 150px;
+    height: 150px;
     margin-right: -1rem;
 }
 .firstSect .leftSide{
     display: flex;
     justify-content: center;
     align-items: center;
-}
-.firstSect .rightSide{
-    margin-top: 1rem;
-    margin-bottom: 1rem;
 }
 
 .name {
@@ -77,18 +80,16 @@
     text-align: left;
     display: flex;
     align-items: center;
-    margin-top: 1rem;
     border-bottom: 3px solid var(--secondary-text-color);
-    padding-bottom: 1rem;
+    padding-bottom: 0.5rem;
 }
 
 .info {
     width: 100%;
     display: flex;
-    justify-content: space-between;
     align-items: center;
-    margin-top: 0.5rem;
-    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 0 3rem;
 }
 
 .infoItem {
@@ -136,13 +137,9 @@
     display: flex;
 }
 .thirdSect .rightSide{
-    padding-top: 1rem;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-}
-.thirdSect .leftSide{
-    padding-top: 2rem;
 }
 .thirdSect .workItem {
     display: flex;
@@ -150,7 +147,12 @@
 }
 .thirdSect .row{
     width: 100%;
+    margin-top: 5px;
 }
+.thirdSect .row:first-child{
+    margin-top: 0;
+}
+
 
 .workItemNumber {
     margin-right: 5px;
@@ -173,7 +175,6 @@
 
 .workItemDescription {
     text-align: left;
-    margin-top: 5px;
     color: var(--secondary-text-color);
     font-size: 18px;
 }
@@ -186,19 +187,17 @@
 .fourthSect .rightSide{
     display: flex;
     flex-direction: column;
-    height: 155px;
 }
 .row{
     display: flex;
     justify-content: space-between;
-    margin-top: 0.5rem;
     flex-wrap: wrap;
 }
-.row:first-child{
-    margin-top: 15px;
+.fourthSect .row{
+    margin-top: 0.5rem;
 }
-.fourthSect .leftSide{
-    padding-top: 1rem;
+.fourthSect .row:first-child{
+    margin-top: 0;
 }
 .featureCont {
     display: flex;
@@ -212,6 +211,7 @@
 .featIcon {
     margin-right: 5px;
     font-size: 2rem !important;
+    color: #02DCFF;
 }
 
 .featText {
@@ -231,6 +231,10 @@
     width: 100%;
     display: flex;
     justify-content: flex-end;
+}
+.reactLogo img{
+    width: 125px;
+    height: 125px;
 }
 
 .reactGIF{
@@ -303,9 +307,6 @@
     .rightSide{
         padding: 0 1rem 1rem 1rem !important;
     }
-    .leftSide{
-        padding-right: 0.5rem;
-    }
     .workItem{
         margin-top: 1rem !important;
     }
@@ -324,9 +325,6 @@
     .thirdSect .rightSide{
         margin-top: -1rem !important;
     }
-    .thirdSect .leftSide{
-        padding-top: 0;
-    }
     .workItem{
         margin-top: 0.5rem !important;
     }
@@ -335,9 +333,6 @@
         margin-top: -0.5rem;
         align-items: flex-start;
         margin-bottom: 0;
-    }
-    .fourthSect .leftSide{
-        padding-top: 0;
     }
     .featureCont{
         margin-top: 0.5rem;
@@ -387,10 +382,75 @@
 }
 
 .fifthSect{
-    height: 1000px !important;
-    overflow: hidden;
+    display: flex;
+    height: 1000px;
 }
 .fifthSect .leftSide{
-    height: 1000px;
-    padding-right: 0;
+    padding-top: 1rem;
+}
+.fifthSect .rightSide{
+    padding-top: 1rem;
+    display: flex;
+    overflow: hidden;
+    position: relative;
+}
+
+.workHistoryItemCont{
+    width: calc(25% - 1rem);
+    height: 100px;
+    border: 1px solid var(--secondary-text-color);
+    border-radius: 15px;
+    padding: 0.5rem 0.5rem;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    margin-right: 1rem;
+    position: relative;
+}
+
+.workHistoryItemCont:after{
+    position: absolute;
+    content: "";
+    height: 25px;
+    width: 2px;
+    bottom: -25px;
+    right: 50%;
+    background: var(--text-color);
+}
+.workHistoryItemCont:before{
+    content: "";
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    bottom: -25px;
+    left: calc(50% - 6px);
+    background: #000;
+    z-index: 999;
+}
+
+.workHistoryItemCont .year{
+    font-weight: bold;
+    font-size: 20px;
+}
+.workHistoryItemCont .companyName{
+    font-size: 20px;
+    font-weight: 500;
+    text-decoration: underline;
+    cursor: pointer;
+    color: var(--text-color);
+}
+.workHistoryItemCont .companyDesc{
+    font-size: 18px;
+}
+
+.fifthSect .rightSide:after{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    top: 135px;
+    left: 0;
+    background: var(--text-color);
 }

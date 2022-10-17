@@ -21,69 +21,72 @@ const Pet = () => {
             <ProjectItem
                 logo={IELogo}
                 name={IEName}
-                background={"linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(75,30,255,1) 50%, rgba(0,0,0,1) 100%)"}
+                background={"linear-gradient(90deg, rgba(0,0,0,1) 40%, rgba(75,30,255,1) 100%)"}
                 boxShadow={"0px 0px 10px 10px rgba(74, 29, 253, 0.2)"}
                 sliderImages={IEImages}
                 titles={IEImageTitles}
                 frontSpecs={IEFrontSpecs}
                 backSpecs={IEBackSpecs}
-                borderColor={"1px solid #fff"}
-                fontColor={"#fff"}
-                borderBottom={"#fff"}
+                borderColor={"2px solid rgba(75,30,255,1)"}
+                fontColor={"#7469C5"}
                 key={0}
+                pos={"left"}
             />
             <ProjectItem
                 logo={TGlogo}
                 name={TGname}
-                background={"linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(117,106,199,1) 50%, rgba(0,0,0,1) 100%)"}
+                background={"linear-gradient(90deg, rgba(117,106,199,1) 0%, rgba(0,0,0,1) 60%)"}
                 boxShadow={"0px 0px 10px 10px rgba(117, 106, 199, 0.2)"}
                 sliderImages={TGImages}
                 titles={TGImageTitles}
                 frontSpecs={TGFrontSpecs}
-                borderColor={"1px solid #D179D1"}
+                borderColor={"2px solid #D179D1"}
                 fontColor={"#D179D1"}
-                borderBottom={"#D179D1"}
                 pagesLeft={-100}
                 key={1}
-            />
-            <ProjectItem
-                logo={FTLogo}
-                name={FTName}
-                background={"linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(154,20,48,1) 50%, rgba(0,0,0,1) 100%)"}
-                boxShadow={"0px 0px 10px 10px rgba(154, 20, 48, 0.2)"}
-                sliderImages={FTimgs}
-                titles={FaityTailImageTitles}
-                frontSpecs={FairyTailFrontSpecs}
-                backSpecs={FairyTailBackSpecs}
-                borderColor={"1px solid rgba(255, 124, 124, 0.49)"}
-                fontColor={"#000"}
-                key={2}
+                pos={"right"}
             />
             <ProjectItem
                 name={testTasksLogo}
-                background={"linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(13,242,82,1) 50%, rgba(0,0,0,1) 100%)"}
+                background={"linear-gradient(90deg, rgba(0,0,0,1) 40%, rgba(13,242,82,1) 100%)"}
                 boxShadow={"0px 0px 10px 10px rgba(13, 232, 79, 0.2)"}
                 sliderImages={TestTaskImgs}
                 titles={TestTaskImageTitles}
                 frontSpecs={TestTaskFrontSpecs}
                 backSpecs={TestTaskBackSpecs}
-                borderColor={"1px solid rgba(255, 124, 124, 0.49)"}
-                fontColor={"#000"}
+                borderColor={"2px solid rgba(13,242,82,1)"}
+                fontColor={"rgba(13,242,82,1)"}
                 pagesLeft={-100}
                 key={3}
+                pos={"left"}
             />
             <ProjectItem
                 name={IntechLogo}
-                background={"linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(242,128,13,1) 50%, rgba(0,0,0,1) 100%)"}
+                background={"linear-gradient(90deg, rgba(242, 128, 13, 1) 0%, rgba(0,0,0,1) 60%)"}
                 boxShadow={"0px 0px 10px 10px rgba(242, 128, 13, 0.2)"}
                 sliderImages={IntechIMGS}
                 titles={IntechImageTitles}
                 frontSpecs={IntechFrontSpec}
                 backSpecs={IntechBacktSpec}
-                borderColor={"1px solid rgba(255, 255, 255, 0.49)"}
-                fontColor={"#fff"}
+                borderColor={"2px solid rgba(242, 128, 13, 1)"}
+                fontColor={"rgba(242, 128, 13, 1)"}
                 pagesLeft={-100}
                 key={4}
+                pos={"right"}
+            />
+            <ProjectItem
+                logo={FTLogo}
+                name={FTName}
+                background={"linear-gradient(90deg, rgba(0,0,0,1) 40%, rgba(154,20,48,1)"}
+                boxShadow={"0px 0px 10px 10px rgba(154, 20, 48, 0.2)"}
+                sliderImages={FTimgs}
+                titles={FaityTailImageTitles}
+                frontSpecs={FairyTailFrontSpecs}
+                backSpecs={FairyTailBackSpecs}
+                borderColor={"2px solid rgba(154,20,48,1)"}
+                fontColor={"rgba(154,20,48,1)"}
+                key={2}
+                pos={"left"}
             />
         </div>
     );

@@ -22,8 +22,6 @@ export const TestTaskFrontSpecs = [
     "i18next",
 ]
 export const TestTaskBackSpecs = [
-    "",
     "JSON Server",
     "JWT",
-    "",
 ]

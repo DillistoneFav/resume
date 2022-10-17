@@ -3,13 +3,13 @@ import Chats from '../../../assets/Telegram web/Chats.png'
 import InProgress from '../../../assets/Telegram web/InProgress.png'
 
 export const TGImages = [
-    Auth,
     Chats,
+    Auth,
     InProgress,
 ]
 export const TGImageTitles = [
-    "Authenticate",
     "Chats page",
+    "Authenticate",
     "In progress!"
 ]
 export const TGFrontSpecs = [
