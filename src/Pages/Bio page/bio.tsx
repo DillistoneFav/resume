@@ -80,7 +80,7 @@ const Pet = () => {
                         <WorkItem number={"03"} title={"Javascript/Typescript"}
                                   description={"OOP, Functional programming, SOLID/DRY principles (not an expert), Promises, Async/Await"}/>
                         <WorkItem number={"04"} title={"React JS"}
-                                  description={"Functional components, Class components, react-router, Rest API, Webpack (npm/yarn), State managers, Next JS"}/>
+                                  description={"Functional components, Class components, Rest API, Webpack (npm/yarn), State managers, Next JS"}/>
                     </div>
                     <div className={classes.row}>
                         <WorkItem number={"05"} title={"Figma"} description={"I can work with layouts and designs"}/>

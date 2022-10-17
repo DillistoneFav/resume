@@ -14,7 +14,7 @@ const Work = () => {
                 description={"Is a tool that allows you to receive data from various sensor systems or other components and display, process or manage them in a web interface."}
                 color={"#1E68B2"}
                 dates={"December 2021 - May 2022"}
-                position={"Junior React developer"}
+                position={"React developer"}
                 techObject={sedmaxTechnologies}
                 duties={sedmaxDuties}
                 link={"https://sedmax.ru"}
