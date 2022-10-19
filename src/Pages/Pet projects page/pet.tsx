@@ -70,9 +70,10 @@ const Pet = () => {
                 backSpecs={IntechBacktSpec}
                 borderColor={"2px solid rgba(242, 128, 13, 1)"}
                 fontColor={"rgba(242, 128, 13, 1)"}
-                pagesLeft={-100}
+                pagesLeft={-75}
                 key={4}
                 pos={"right"}
+                scroll={true}
             />
             <ProjectItem
                 logo={FTLogo}
@@ -87,6 +88,7 @@ const Pet = () => {
                 fontColor={"rgba(154,20,48,1)"}
                 key={2}
                 pos={"left"}
+                scroll={true}
             />
         </div>
     );

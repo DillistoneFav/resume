@@ -6,8 +6,10 @@
       <change beforePath="$PROJECT_DIR$/node_modules/.cache/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/.eslintcache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/node_modules/.cache/default-development/index.pack" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/default-development/index.pack" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/node_modules/.cache/default-development/index.pack.old" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/default-development/index.pack.old" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Pages/Bio page/bio.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pages/Bio page/bio.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Pages/Bio page/bio.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pages/Bio page/bio.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Pages/Pet projects page/components/ProjectItem.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pages/Pet projects page/components/ProjectItem.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Pages/Pet projects page/pet.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pages/Pet projects page/pet.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Pages/Pet projects page/pet.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pages/Pet projects page/pet.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Pages/Work history page/work.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pages/Work history page/work.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -29,18 +31,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Learning/resume",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.keymap",
-    "ts.external.directory.path": "C:\\Learning\\resume\\node_modules\\typescript\\lib",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Learning/resume&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;C:\\Learning\\resume\\node_modules\\typescript\\lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Learning\resume\Locales" />
@@ -77,7 +79,9 @@
       <workItem from="1665752530717" duration="1927000" />
       <workItem from="1665760990804" duration="6500000" />
       <workItem from="1665924272284" duration="55000" />
-      <workItem from="1666034113226" duration="4874000" />
+      <workItem from="1666034113226" duration="5343000" />
+      <workItem from="1666088203695" duration="1272000" />
+      <workItem from="1666169483366" duration="1047000" />
     </task>
     <servers />
   </component>

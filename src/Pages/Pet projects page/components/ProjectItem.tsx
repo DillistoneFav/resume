@@ -16,6 +16,7 @@ interface ProjectItemProps {
     borderBottom?: string;
     pagesLeft?: number;
     pos: string;
+    scroll?: boolean;
 }
 
 const ProjectItem: FC<ProjectItemProps> = ({
@@ -31,7 +32,8 @@ const ProjectItem: FC<ProjectItemProps> = ({
         fontColor,
         borderBottom,
         pagesLeft,
-        pos
+        pos,
+        scroll
     }) => {
 
     const [selectedIMG, setSelectedIMG] = useState<string>(sliderImages[0])
@@ -84,12 +86,14 @@ const ProjectItem: FC<ProjectItemProps> = ({
             </div>
             <div className={classes.rightSide}>
                 <div style={{boxShadow: boxShadow}} className={classes.imgCont}><img alt={"selectedPNG"} src={selectedIMG}/></div>
+                {scroll ? <div className={classes.scrollRight}>SCROLL ➔</div> : <></>}
             </div>
         </div>
     ) : (
         <div className={classes.petMainContainer} style={{background: background, color: fontColor}}>
             <div className={classes.rightSide}>
                 <div style={{boxShadow: boxShadow}} className={classes.imgCont}><img alt={"selectedPNG"} src={selectedIMG}/></div>
+                {scroll ? <div className={classes.scrollLeft}>SCROLL ➔</div> : <></>}
             </div>
             <div className={classes.leftSide}>
                 <div className={classes.leftSideCont}>

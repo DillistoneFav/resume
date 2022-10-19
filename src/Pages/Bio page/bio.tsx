@@ -10,7 +10,7 @@ import MultipleStopIcon from "@mui/icons-material/MultipleStop";
 import PanoramaIcon from "@mui/icons-material/Panorama";
 import ApiIcon from "@mui/icons-material/Api";
 import BuildIcon from '@mui/icons-material/Build';
-import BugReportIcon from '@mui/icons-material/BugReport';
+import BrushIcon from '@mui/icons-material/Brush';
 import classes from "./bio.module.css"
 import WorkHistoryItem from "./components/WorkHistoryItem";
 
@@ -129,8 +129,8 @@ const Pet = () => {
                             title={"i18next"}
                         />
                         <FeatureItem
-                            icon={<BugReportIcon className={classes.featIcon}/>}
-                            title={"Testing Library"}
+                            icon={<BrushIcon className={classes.featIcon}/>}
+                            title={"Canvas"}
                         />
                     </div>
                 </div>
